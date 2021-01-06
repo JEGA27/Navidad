@@ -39,7 +39,7 @@ function draw() {
   if (keyIsPressed){
       if (key == 'p'){
         image (capture,0,0,width,height); 
-        for(var j = 0; j < 10; j = j +1){
+        for(var j = 0; j < 50; j = j +1){
           ///
          text('*',x[j], y[j] ,h[j]);  
          if (y[j] > height) {
